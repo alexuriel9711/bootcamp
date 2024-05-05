@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    
+        <img src="https://via.placeholder.com/480x480.png/FF5533" alt="Imagen referencia 480x480">
+
+    <figure>
+        <img src="https://via.placeholder.com/580x680.png/AA55FF" alt="Imagen referencia 580x680">
+        <figcaption>Imagen referencia 580x580</figcaption>
+    </figure>
+
+    <picture>     
+        
+        <!-- Image for 1920x1080 -->
+         <source media="(min-width: 1920px)" srcset="https://via.placeholder.com/1536x100.png/99BC11">
+         <!-- Image for 1536x864 -->
+         <source media="(min-width: 1536px)" srcset="https://via.placeholder.com/1536x100.png/FFAA99">
+         <!-- Image for 412x846 -->
+         <source media="(min-width: 412px)" srcset="https://via.placeholder.com/412x100.png/55AA00">
+         <!-- Image for 360x800 -->
+         <source media="(min-width: 360px)" srcset="https://via.placeholder.com/360x100.png/BB5500">    
+         <!-- Image default -->
+         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAnFBMVEX////+TB7/PAD+Shv/MgD/4tv/VSv+SBb+QAD/uq7/dFr/w7r/9vP+RhH+SRf/TSf/v7P/aUv/187/8Oz/yMD/+/n/RRv/29P/c1X/0Mf/6+b/g2//rJ//fWH/5d7/lH7/qJb/h23/fmP/Yj3/b0//loD/oIz+WTH/lX//YDj+jXX+gmj+Tyv+bVD/tKf/iXX/HgD/dWD/oJD/ZEVgNt+OAAANjElEQVR4nO1da2OiPBM1CUqwhHop62W9VVttbbX76P//by8XBYkGkkkQ9l3Phy1r25RDwsyZySRpNB544IEHHnjggQceeCCEPx68OIv37etyOgwxXb5u1wvnZTD2q741bbjNznq6QowGYAHsGOFl9BFaTdedgVv1bcLgNp35keGAmEcIug1CvIAqZse50/zLaM72X5ugizwRNY6oF/To5ms/q/q2JeGOPlpB18mRu6AZdGbrY1T7rvRH25Y6uwuWre2ozuZnMH+G00tIoo9B1URuo79fYU16Z5J4te9XTecKszmingF6MWyK5vWyO72hme5LEXRku1c1rQSjYeC7zYPR4ahqahFGb6XwC2HTt+o5DqbYLolfxBFPqzWs7ra0/juD0W2FKmBSOr+Y46Qifr0uNWs/RSC0W4VZ9d/v0oExbPp+dy032tC78QtBN3e2qmuDAkYONl3fkV/z874dGIN+Nu9F0GFlukAxbObch+D2Tib0GoRu78Bv/FbFCD2Dvo3LJjhA9/MRt8BaJau4Dr63DeXh4U6ZBBeVvYIpCF2UR/AdV00vAn4vi+BrlTbmEvS1HIJfdSEYUPwqgZ8/rQ/BgOLUvBKvFcGQommCNRqiMUwP1NoYmRRmzc17/QgGftGg01jUww/ywAtTBDs1UDI3QQ0JuAGuKUFEsBEZPm5VLbbF8Fomgqk3hXCJREgvk48SZH7m4j+XHyqAvekT3CqYUe/7OUR0p+HlNyIo/igBIfHX+LHZ0fU3QeQ7/qoM/ai/o+IncN91Xd8JfoW9+uFll/6EX1PMKH6KvjMP2/U2/ejTX96xEX64BOR/dK1NU2laEEdisRP4FvYT/XqXf8R9il/iq9A+W6cc6C+7G339DcgfEKaXgftUeqoqDJ8wYu340v9lH8EMkf2pQ3CtpmVUGDbaDI9NMEQ6qeKRoliLGToWpfj3ieE826KbMhz/OU8p+TqjNKQITvi7G0VPGDNsLgLEPLpsN5lMFtEd+JPFZHJgCcPG/hziafZhYLCgM4wfqnob82Fp17MppVbUWW54SVHKMIEuQwTV4D3lgOIGw+gGYoatyCyXwRBR2PxiV9k7yTM8V5Y2zTA8vceKmKjHhPIMR4fo+6O1GYYIMhHeB4RM8gx7fyJPwRYZhv9ZMdSlPqHqZWJbwPNM/CE5+0MRw4G1C/49WFmGbj9GS/3hMmV9OoDkLc4MCWG/C/oQ432jiePvJAzPADBEVDVUnEJeiWtNI2aIaL9rG2TIFNOLI1BmRokh8RgyyBBhNWXzBprHxo0chv6JYXQjg/gJnkzgL87agxjaSsGwqiA9gTqdAPNggHvD8KrzGd0qew2vHRT/Zx3+0CF+CaLvOA7xPjvRr8ZwQAzV5OkQWIpAcYDo5u3w6uxwGP8fen6C8XfCec8LAFN79lCeoLpeqwUUtNuw2rl6KJh0J87qmeIuBpatDZ//nV0YdOK8mFyIPqprjrsIBMmp072ynSFWOVB+0nQvxXClKu1JqxljNmsahfJg8lYyBAfqdoaWU4ntAiJUGf0NsDO4nGKzsfqzlrE1PkAymZnkugJgNJFWcY0GRJLeyC6ZwAvAL0uIU1BsX05lqwN42MWxvguKrxelMFwAGJJWkdUDxU2snFK6d4i2KhymH5BWT1kZ0wAlFwutKSy8BiVkCwFKNJBWfqOwsIJ4pTCEVUgUBBjqmjRutRSGsCCuQJt+wQInqxSGFuheWG5Jn7uBBU5WGUuv+zCGJHc2sQlM0FhlrNdpwhgimnczEBURQjEbKwdYVjrMaeY0Cs1f5DYKBfRx53rEI7CErZR1rIAJzAhejnd2odsG8LINtwBAP9lGQKINhXOJYlPThKYRGVeRTAkA9CPbyCs05YfFpkapiO0SfEId5HT4CGUHXeWYU+q2hj41Lzs71mhDbg5zYgRqFBATF0lNoU+NbLLJgx/Q/OpTpg0fqD6CESWeLFXOI57Bp2IV6+Fi4OzESh9SURtBnFP04clums22gQw9ZyDG4AkwgkTpqDF8voK7uyeIUeZykmDDjggTZTdB9Renu8vKth7k7riSGKhoQzl1GS8aDLNWAhJIk+esowaNgxhUlN2ECkF0Jdv6aUsEy+I7+/ZARRvKkcmQ7N25zawLcpPd9oj35EgiOwxg9vh0NwsBQ7DDT6pLzvA/E79zVesmC5BPPd2NKLsJSXef21xmm0orNy3orM1S425EiW+w1L2OWNLbs6Cb53Thi5H4QMDEU+OzlOlwAG8QACsbihkuBW2CZWkAmn3dDomZgAbHvkZNj90WNAqthAphZZ1ZmneFzmm4GiUvwuooHYacbEvFg/B5FgAu2spimDUoqWzzgIt2QMKvVIZZf532AEEwhhqiTcwQFJmfwM0W9BNbShjM5QNnUGKGojdDy5YeMk35dmLrvV1bBjtOSx7KYKjhD6/SsBfezLNlwGdpdIrrhP5QQ9NcPTblhAj3Imu9MkJNo6FLr3IjyjfIT32Ac0YoR5dCk8wheNmmHBlY3NSthmgTpxM14kNEiGZb/BSkrcFQGB9qxPhXC4+U2+KELWTZVdqWKMbXyNNcFQioOmxeGGhVYgvzNBq5thzZJgfeUumINnGubayzJzdXvTdWnKLmhZbOeBLnSzVy3leyzf0jk15LafBlVTqiTZzz1vJBvP16ksFFGMlNHurY9ZxaaB1hKrsSIIO0RpbTtXqiTTz3pJFOLCjUESCtkeUrmYClS/GtiOcPwXPAYbOQWH6fMORlqc7CpJw5YJ3MAT8NLIX0beOcja9jEnLm8cG1GCg0YNlc1DhdNiEuCUvfNu6uXA2zTlhO2ddRJwbOtnuwzi4hXrB9E+nbxk2x9nVMaV61q44F4yY4nWTE5+QTk7FISLajAUstEuRadR3tzecTU4aiiLvRSMYi4abWAEstEuSWoEFrEyOG2RD2Itu2Ef69NOfIOWnIUouEYV5tIrS+NGKYfXSz9GFR4d9LxKu9y37DgTPMry/VcbScbLsoFhFWEKc1snwJjIZoK5AeGoKXMygXBT/CCuK0RpbPrIAWRcQoqPPWCDz56CAt2uJTMAnSIJAXWvB9XAoXA8M3SfS4VynNtrGvl1u92H9JN9/gHzx8erRovYWGR+Sbvsi+Mkzbk6yFGyyGFKc/QTlZ+gy2eHwYdgXgfhEhuEUXh8yzsilGPy+xlXOffhCmGfnEZ0s1ammKSs5Ba9dicCbzymgRhnF70lvsrOsjzPhif2CZvszaNY3EN2cyb2bbgq6kt7Qv97uqWZ4UEnsNwYeplc1wDVTukut/uGiTWEMKWQccg3uXlPqBe4fBVXs5SagUYGfL2UNfgSG/+A2cbJDKFoFHCF9XYmHZZ8Xwd/ZXwVV7cqvKoQkExqXLxs4SW7RghoXY1KK/O5wigKbE5PZUAGvTW5J3sNgRLDz9yguc5HByI9iBBgCS+2JA9zYRVED0R+vVDQ8YeEdrtR7dFuVD2DCS3dsEqtxysm39zuvzxSnI4enG6GpoXgC41EI6Kw0MMDxxLB9isF9GWs2jlv3fJN8iqG4Ne4L0HkPAdCyfT7yG2zsc/2wOhUdTA3OJ8vtEQff6oqa2OAEutVDZpxXWiTm5ZjXAcu8q+7UBxamxtbIw0aa2JTRoOwN+dgUMkGhT2zcR9hQl/W0xQJpDdQRB9i81do4mZKmF6v6loLoM0DTwLUCicOU9aCF/BTQNfAuAIkn1fYQbrnpREp+aB2OnLGkge0EDYjTitff6Tn+2b6trNtiaB/U92VEQ7Hnbm+lfOfSffph1M1VV8HdhWwDBtFsQFbHhArCBm9877Oh1lCUF4L768LPIbIq9347KVoN9Z2lTQOedCEJ34vKBQUyIKMAtjiIidqP3T4tqFEnAz7fQSfFHf5ni5/Y+P2ZrToYEM70zs+BnlGit44wRJprsucD2BHaFFqaqJAhqSamVgRO4gwFLd1e2Z3ToQu1KFnpnBSme9yQECaeelp2zsxw7U3J7/gLQtOZ5T1qlbvytYOu47sV2RXtoJtA/IVDl3LVCBF3JxOlTCEyctq5ydt7dYeLsvH/g/MP//zMsTVobwzB1Duk/cJZsbY6Nz8LkecD/wJnO/8C53P/A2eoNv1YU6RS6KUweajRQzQ/RGLUxN6aNTIqaOA1czgbpERY1OGWdlLTH/QkdXLUM98Bb+khigKoNphgq5yyNC4y7Vdob+lbOcShZbCt7GYmJiF4GDjOTRFKFzUp+BVM0P6sYqfSzjH3RRVgbTSfJwDM2hy6J0ea+3Ug3ZWz7ngv/3VBKVwY2fS9DaReh171TiorQLnRrQl1M6D3cPytlT3tJuNvSOTK6LePwDHkMprjM19HG09JVWiFGb6X1I6Nvd7egNzEalsKR0WE9+IXoDY1Mdl6AMDysyoDexmyODPpHm6K5dM323dDfH810ZNB9x3219lOIwUdLp2okpkdbH9WbTzH80VaDZEhvO6pCnynBHc1bWJ1luMqkNZcqMaoDZvuvDaWygTLxGKWbr4LaotrBbTrzIws60/aER3GQgFvQdew4d5p/S+dxcJud9XQV+O4ALMB5s9LgMvoIrabrzt9K7gL+ePDiLNbb1+W0PRwO2+3l63a9cF4G49oblQceeOCBBx544IEH7oT/AbS+F9sp5C/hAAAAAElFTkSuQmCC" alt="Default-image">
+         
+    </picture>
+
+</body>
+</html>
