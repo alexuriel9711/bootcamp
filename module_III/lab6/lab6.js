@@ -11,7 +11,18 @@ let quantity = "";
 let price = "";
 let latitude = "";
 let longitude = "";
+let email = "";
+let name = "";
+let lastname = "";
+let phone = "";
+let pass = "";
+let emailLog = '';
+let passLog = '';
+let login = {};
 let product = {};
+let user = {};
+
+
 
 
 const getProductDataForm = () => {
@@ -23,6 +34,19 @@ const getProductDataForm = () => {
     longitude = document.getElementById("longitude").value;
 };
 
+const getUserDataForm = () => {
+    email = document.getElementById("email").value;
+    name = document.getElementById("name").value;
+    lastname = document.getElementById("lastname").value;
+    phone = document.getElementById("phone").value;
+    pass = document.getElementById("pass").value;
+    longitude = document.getElementById("longitude").value;
+};
+const getLoginDataForm = () => {
+    emailLog = document.getElementById("emailLog").value;
+    passLog = document.getElementById("passLog").value;
+
+}
 
 const buildProductDataForRequest = () => {
     product = {
@@ -33,7 +57,23 @@ const buildProductDataForRequest = () => {
         latitude: latitude,
         longitude: longitude
     };
+    user = {
+        email: email,
+        name: name,
+        quantity: quantity,
+        lastname: lastname,
+        phone: phone,
+        pass: pass,
+    };
+    login = {
+        emailLog: emailLog,
+        passLog: passLog,
+
+    };
 };
+
+
+
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
     'use strict'
@@ -54,6 +94,3 @@ const buildProductDataForRequest = () => {
         }, false)
       })
   })()
-
-
-
