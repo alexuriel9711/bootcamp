@@ -1,0 +1,24 @@
+[
+  {
+     "name": "papa",
+     "typeProduct": "Tuberculo",
+     "quantity": "10",
+     "price": "20.000",
+     "latitude": "10",
+     "longitude": "20",
+     "productId": "2f2bfu",
+     "id": 456456456,
+     "status": true
+  },
+  {
+    "name": "yuca",
+    "typeProduct": "Tuberculo de raiz",
+    "quantity": "20",
+    "price": "30.000",
+    "latitude": "5",
+    "longitude": "10",
+    "productId": "qd3y4ch",
+    "id": 132456789,
+    "status": true
+  }
+]
