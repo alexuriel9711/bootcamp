@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 Modulo 2</title>
+</head>
+<body class="main-container">
+    <header>
+        <h1 class="bungee-spice-regular">Supermercado el codigo abierto</h1>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <h2>Formulario</h2>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" minlength="4" required>
+    
+            <label for="tipoproducto">Tipo de producto</label>
+            <select name="tipoproducto" id="tipoproducto">
+                <option value="frut">Frutas</option>
+                <option value="verd">Verduras</option>
+                <input type="text" id="otro" name="otro"  minlength="6" placeholder="otro" required>
+            </select>
+    
+            <label for="cantidad">Cantidad</label>
+            <input type="text" id="cantidad" name="cantidad" minlength="1" required>
+    
+            <label for="precio">Precio</label>
+            <input type="text" id="precio" name="precio" minlength="5" required>
+    
+            <label for="latitud">Latitud:</label>
+            <input type="text" id="latitud" name="latitud" minlength="6" required>
+    
+            <label for="longitud">Longitud:</label>
+            <input type="text" id="longitud" name="longitud" minlength="6" required>
+    
+            <button>Enviar</button>
+        </form>      
+
+    </main>
+    
+</body>
+</html>
